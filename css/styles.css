@@ -17,6 +17,10 @@ body {
     list-style: none;
 }
 
+.text {
+    text-decoration: none;
+}
+
 
 span {
     color: var(--accent-color);
@@ -28,13 +32,8 @@ span {
 
     font-size: 26px;
     font-family: Raleway,sans-serif;
-
-    text-decoration: none;
 }
 
-.nav-cont {
-    text-decoration: none;
-}
 
 .nav-cont:hover,
 .nav-cont:focus {
@@ -77,11 +76,9 @@ font-weight: 400;
     letter-spacing: 0.03em;
 }
 
-.nav-foot-cont {
-    text-decoration: none;
-}
 
-.nav-foot-cont:hover,
+
+/* .nav-foot-cont:hover,
 .nav-foot-cont:focus {
     color: var(--accent-color);
-}
+} */
