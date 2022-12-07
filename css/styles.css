@@ -3,6 +3,7 @@
     --secondary-txt-color: #757575;
     --accent-color: #2196F3;
     --primari-white-color: #ffffff;
+    --secondary-background-color: #2F303A;
 }
 
 
@@ -13,6 +14,13 @@ body {
     background-color: var(--primari-white-color);
 }
 
+.logo {
+    color: #000000;
+
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+}
+
 .list {
     list-style: none;
 }
@@ -21,18 +29,19 @@ body {
     text-decoration: none;
 }
 
+.accent {
+    color: var(--accent-color);
+}
+
+.white {
+    color: var(--primari-white-color);
+}
+
 
 span {
     color: var(--accent-color);
 }
 
-
-.logo {
-    color: #000000;
-
-    font-size: 26px;
-    font-family: Raleway,sans-serif;
-}
 
 
 .header-nav-item:hover,
@@ -82,3 +91,9 @@ span {
 .footer-nav-item:focus {
     color: var(--accent-color);
 }
+
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+
