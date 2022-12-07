@@ -21,12 +21,8 @@ body {
     font-family: Raleway, sans-serif;
 }
 
-.list {
-    list-style: none;
-}
-
-.text {
-    text-decoration: none;
+span {
+    color: var(--accent-color);
 }
 
 .accent {
@@ -38,11 +34,24 @@ body {
 }
 
 
-span {
-    color: var(--accent-color);
+/* .class Reset!!!: */
+
+.list {
+    list-style: none;
+}
+
+.text {
+    text-decoration: none;
 }
 
 
+
+.header-nav,.header-contact {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
 
 .header-nav-item:hover,
 .header-nav-item:focus {
@@ -54,6 +63,9 @@ span {
     color: var(--accent-color);
 }
 
+
+
+
 .main-filter {
 
     font-weight: 500;
@@ -62,7 +74,6 @@ span {
     letter-spacing: 0.03em;
     
 }
-
 
 .main-filter-item:hover,
 .main-filter-item:focus {
@@ -86,6 +97,13 @@ span {
     letter-spacing: 0.03em;
 }
 
+
+
+.footer-nav {
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.7;
+}
 
 .footer-nav-item:hover,
 .footer-nav-item:focus {
