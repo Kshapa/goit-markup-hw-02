@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --primari-white-color: #ffffff;
     --secondary-background-color: #2F303A;
+    --black-color: #000000;
 }
 
 
@@ -15,14 +16,20 @@ body {
 }
 
 .logo {
-    color: #000000;
+    color: var(--accent-color);
 
-    font-size: 26px;
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
-span {
-    color: var(--accent-color);
+.logo-top {
+    color: #000000;
+}
+.logo-bottom {
+    color: #ffffff;
 }
 
 .accent {
