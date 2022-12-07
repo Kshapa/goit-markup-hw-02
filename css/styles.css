@@ -1,6 +1,6 @@
 :root {
     --primari-text-color: #212121;
-    --secondari-txt-color: #757575;
+    --secondary-txt-color: #757575;
     --accent-color: #2196F3;
     --primari-white-color: #ffffff;
 }
@@ -35,27 +35,28 @@ span {
 }
 
 
-.nav-cont:hover,
-.nav-cont:focus {
+.header-nav-item:hover,
+.header-nav-item:focus {
     color: var(--accent-color);
 }
 
+.header-contact-item:hover,
+.header-contact-item:focus {
+    color: var(--accent-color);
+}
 
-.filter {
-    font-family: Roboto, sans-serif;
-    color: var(--primari-text-color);
+.main-filter {
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     letter-spacing: 0.03em;
     
 }
 
 
-.filter:hover,
-.filter:focus {
+.main-filter-item:hover,
+.main-filter-item:focus {
     color: white;
     background-color: #2196F3;
 }
@@ -68,17 +69,16 @@ span {
 }
 
 .subtitle {
-    color: var(--secondari-txt-color);
+    color: var(--secondary-txt-color);
 
-font-weight: 400;
+/* font-weight: 400; */
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
 
 
-
-/* .nav-foot-cont:hover,
-.nav-foot-cont:focus {
+.footer-nav-item:hover,
+.footer-nav-item:focus {
     color: var(--accent-color);
-} */
+}
