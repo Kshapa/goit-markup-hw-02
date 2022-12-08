@@ -87,7 +87,7 @@ body {
     background-color: #2196F3;
 }
 
-.title {
+.main-content-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -121,4 +121,86 @@ body {
     background-color: var(--secondary-background-color);
 }
 
+
+
+
+
+
+
+/* main page two */
+
+.title {
+    color: var(--primari-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main-board-order {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.main-board {
+    background-color: var(--secondary-background-color);
+}
+
+
+
+
+.spetial-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.spetial-text {
+    color: var(--secondary-txt-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+.variety,
+.staff {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.staff-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.staff-order {
+    color: var(--secondary-txt-color);
+
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
 
